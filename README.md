@@ -14,7 +14,7 @@ The Arduino Delay with Interrupt Library provides a convenient way to control th
 1. Download the latest release of the Arduino Delay with Interrupt Library from the GitHub repository: [Link to Repository](https://github.com/MAzewail/WaitPushButton).
 2. Open the Arduino IDE on your computer.
 3. In the Arduino IDE, click on the **Sketch** menu, navigate to **Include Library**, and select **Add .ZIP Library**.
-4. Locate the downloaded library file (e.g., `arduino-delay-with-interrupt.zip`) and select it.
+4. Locate the downloaded library file (e.g., `WaitPushButton.zip`) and select it.
 5. The library will be imported and ready to use.
 
 ## Usage
