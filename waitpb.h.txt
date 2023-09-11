@@ -1,0 +1,27 @@
+#ifndef waitpb_h
+#define waitpb_h
+#include
+
+
+class waitpb{
+
+private:
+uint8_t ledpin;
+uint8_t onbuttonpin;
+uint8_t offbuttonpin;
+uint16_t MILLISEC;
+bool ledstate;
+bool onbuttonstate;
+bool offbuttonstate;
+
+ unsigned long onTime;
+ unsigned long previousMillis;
+
+public:
+waitpb(uint8_t ledpin,uint8_t onbuttonpin,uint8_t offbuttonpin,uint16_t SEC);
+void begin();
+void waits(uint16_t time_s);
+void waitms(uint16_t time_ms);
+
+};
+#endif

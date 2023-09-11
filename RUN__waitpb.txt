@@ -1,0 +1,10 @@
+waitpb x(13,7,6,0);
+
+void setup() {
+  x.begin();
+}
+
+void loop() {
+  x.waits(6);
+  //x.waitms(5000);
+}
